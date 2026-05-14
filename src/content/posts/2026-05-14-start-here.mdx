@@ -1,0 +1,42 @@
+---
+title: '블로그 시작: 템플릿 세팅과 글 작성 규칙'
+description: 'Whitespace 템플릿을 한국어 단일 블로그로 바꾸며 정한 운영 규칙을 정리합니다.'
+date: 2026-05-14 17:30:00
+updatedDate: 2026-05-14 17:30:00
+draft: false
+tags:
+  - astro
+  - blog
+  - setup
+---
+
+이 글은 블로그를 처음 열면서 정한 운영 기준을 기록한 첫 포스트입니다.
+
+## 운영 원칙
+
+- 언어는 한국어 단일 운영
+- 글 포맷은 MDX 통일
+- 이미지는 레포의 `public/images/posts/...` 경로에 저장
+- 메인 브랜치 머지 시 Vercel 자동 배포
+
+## 이미지 경로 규칙
+
+포스트별로 아래와 같이 디렉터리를 나눕니다.
+
+```text
+public/images/posts/<slug>/
+```
+
+본문에서는 절대 경로로 이미지를 참조합니다.
+
+```md
+![이미지 설명](/images/posts/start-here/cover.avif)
+```
+
+![블로그 시작 커버](/images/posts/start-here/cover.avif)
+
+## 다음 할 일
+
+- `site.config.ts`의 프로필과 링크를 실사용 정보로 교체
+- Vercel 프로젝트 연결 후 Preview/Production 배포 확인
+- 첫 실사용 글 발행
