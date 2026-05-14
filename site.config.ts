@@ -2,10 +2,11 @@ import type { SiteConfig } from '~/cfg-schema';
 
 const config: SiteConfig = {
   siteUrl: 'https://your-blog.vercel.app',
-  title: '기록하는 개발 블로그',
+  title: 'Baechu Game Dev Blog',
   titleTemplate: '%s',
-  description: '개발하며 배운 점을 한국어로 정리하는 개인 기술 블로그',
-  favicon: '/favicon.svg',
+  description:
+    '1인 인디게임 개발자로서 게임 기획, 개발, 디자인, 사업을 직접 수행하며 배운 내용을 기록합니다.',
+  favicon: '/favicon-game.svg',
   ogImage: '/og.avif',
   lang: 'ko',
   // analytics: {
@@ -13,30 +14,25 @@ const config: SiteConfig = {
   //   websiteId: 'your-umami-website-id',
   // },
   bio: {
-    name: 'Your Name',
-    avatar: '/avatar.avif',
-    description:
-      '프론트엔드와 웹 생태계를 탐구하며 배운 내용을 차근차근 기록합니다.',
+    name: '김다영',
+    avatar: '/avatar.png',
+    description: '카비게임즈 대표이자 1인 인디게임 개발자입니다.',
     links: [
       {
         label: 'mail',
-        url: 'mailto:hello@example.com',
+        url: 'mailto:teamcabbi@gmail.com',
       },
       {
         label: 'github',
-        url: 'https://github.com/your-github-id',
+        url: 'https://github.com/baechu50',
       },
       {
         label: 'linkedin',
-        url: 'https://www.linkedin.com/in/your-linkedin-id',
+        url: 'https://www.linkedin.com/in/baechu50',
       },
       {
         label: 'x',
-        url: 'https://x.com/your-x-id',
-      },
-      {
-        label: 'instagram',
-        url: 'https://www.instagram.com/your-instagram-id',
+        url: 'https://x.com/cabbi_games',
       },
     ],
   },

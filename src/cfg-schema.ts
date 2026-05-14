@@ -62,7 +62,7 @@ export const siteConfigSchema = z.object({
   favicon: z.string(),
   ogImage: z.string().optional(),
   lang: z.string().default('en'),
-  analytics: analyticsSchema,
+  analytics: analyticsSchema.optional(),
   bio: z.object({
     name: z.string(),
     avatar: z.string().optional(),

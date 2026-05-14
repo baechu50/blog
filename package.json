@@ -3,15 +3,15 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
-    "astro": "astro",
-    "lint": "prettier . ",
-    "lint:fix": "prettier --write ."
+    "dev": "bun --bun ./node_modules/.bin/astro dev",
+    "start": "bun --bun ./node_modules/.bin/astro dev",
+    "build": "bun --bun ./node_modules/.bin/astro check && bun --bun ./node_modules/.bin/astro build",
+    "preview": "bun --bun ./node_modules/.bin/astro preview",
+    "astro": "bun --bun ./node_modules/.bin/astro",
+    "lint": "bun --bun ./node_modules/.bin/prettier .",
+    "lint:fix": "bun --bun ./node_modules/.bin/prettier --write ."
   },
-  "packageManager": "pnpm@10.12.4",
+  "packageManager": "bun@1.1.22",
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^4.3.0",

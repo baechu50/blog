@@ -5,16 +5,16 @@ Astro 기반 `whitespace-blog-template`를 한국어 단일 블로그 운영에 
 ## 1) 시작하기
 
 ```bash
-corepack pnpm install
-corepack pnpm dev
+bun install
+bun dev
 ```
 
 - 개발 서버: `http://localhost:4321`
 - 프로덕션 빌드:
 
 ```bash
-corepack pnpm build
-corepack pnpm preview
+bun run build
+bun preview
 ```
 
 ## 2) 콘텐츠 작성 규칙
@@ -29,7 +29,9 @@ description: '글 요약'
 date: 2026-05-14 17:30:00
 updatedDate: 2026-05-14 17:30:00
 tags:
-  - astro
+  - devlog
+  - book
+  - etc
 draft: false
 ```
 
