@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Steam Next Fest까지의 준비 흐름</title>
+  <desc id="desc">Coming Soon, Playtest, 공개 Demo, Next Fest, 피드백 반영, 정식 출시 순서</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#475569"/>
+    </marker>
+    <style>
+      .node{fill:#f8fafc;stroke:#64748b;stroke-width:2}
+      .store{fill:#eff6ff;stroke:#2563eb}
+      .demo{fill:#f5f3ff;stroke:#7c3aed}
+      .event{fill:#fff7ed;stroke:#ea580c}
+      .release{fill:#ecfdf5;stroke:#059669}
+      .label{font:600 17px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#0f172a;text-anchor:middle}
+      .sub{font:13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569;text-anchor:middle}
+      .line{fill:none;stroke:#475569;stroke-width:2.2;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <path class="line" d="M190 115H215"/>
+  <path class="line" d="M385 115H410"/>
+  <path class="line" d="M580 115H605"/>
+  <path class="line" d="M775 115H800"/>
+  <path class="line" d="M970 115H995"/>
+
+  <rect class="node store" x="20" y="70" width="170" height="90" rx="14"/>
+  <text class="label" x="105" y="105">Coming Soon</text>
+  <text class="sub" x="105" y="133">위시리스트를 받을 장소</text>
+
+  <rect class="node" x="215" y="70" width="170" height="90" rx="14"/>
+  <text class="label" x="300" y="105">Playtest</text>
+  <text class="sub" x="300" y="133">초기 문제 발견</text>
+
+  <rect class="node demo" x="410" y="70" width="170" height="90" rx="14"/>
+  <text class="label" x="495" y="105">공개 Demo</text>
+  <text class="sub" x="495" y="133">구매 판단과 홍보</text>
+
+  <rect class="node event" x="605" y="70" width="170" height="90" rx="14"/>
+  <text class="label" x="690" y="105">Next Fest</text>
+  <text class="sub" x="690" y="133">대규모 체험과 발견</text>
+
+  <rect class="node" x="800" y="70" width="170" height="90" rx="14"/>
+  <text class="label" x="885" y="105">피드백 반영</text>
+  <text class="sub" x="885" y="133">이탈 구간과 문제 수정</text>
+
+  <rect class="node release" x="995" y="70" width="185" height="90" rx="14"/>
+  <text class="label" x="1087.5" y="105">정식 출시</text>
+  <text class="sub" x="1087.5" y="133">구매와 본편 리뷰</text>
+</svg>

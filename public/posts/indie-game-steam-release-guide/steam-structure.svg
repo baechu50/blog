@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="650" viewBox="0 0 920 650" role="img" aria-labelledby="title desc">
+  <title id="title">Steam 출시 구조</title>
+  <desc id="desc">본편 App ID에서 본편 상점 페이지, Playtest, Demo가 나뉘고 Coming Soon을 거쳐 정식 출시와 본편 리뷰로 이어지는 구조</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#475569"/>
+    </marker>
+    <marker id="dashedArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#7c3aed"/>
+    </marker>
+    <style>
+      .node{fill:#f8fafc;stroke:#64748b;stroke-width:2}
+      .primary{fill:#eff6ff;stroke:#2563eb}
+      .demo{fill:#f5f3ff;stroke:#7c3aed}
+      .release{fill:#ecfdf5;stroke:#059669}
+      .label{font:600 18px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#0f172a;text-anchor:middle}
+      .sub{font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569;text-anchor:middle}
+      .line{fill:none;stroke:#475569;stroke-width:2.2;marker-end:url(#arrow)}
+      .optional{fill:none;stroke:#7c3aed;stroke-width:2.2;stroke-dasharray:7 6;marker-end:url(#dashedArrow)}
+    </style>
+  </defs>
+
+  <path class="line" d="M460 90V135"/>
+  <path class="line" d="M375 75C250 100 205 165 190 235"/>
+  <path class="line" d="M545 75C670 100 715 165 730 235"/>
+  <path class="line" d="M460 205V235"/>
+  <path class="line" d="M190 315V400"/>
+  <path class="line" d="M190 480V535"/>
+  <path class="line" d="M700 315C660 345 610 365 560 400"/>
+  <path class="optional" d="M755 315C795 345 820 365 820 400"/>
+
+  <rect class="node primary" x="350" y="20" width="220" height="70" rx="14"/>
+  <text class="label" x="460" y="62">본편 App ID</text>
+
+  <rect class="node primary" x="350" y="135" width="220" height="70" rx="14"/>
+  <text class="label" x="460" y="168">본편 상점 페이지</text>
+  <text class="sub" x="460" y="190">게임 정보와 위시리스트</text>
+
+  <rect class="node primary" x="70" y="235" width="240" height="80" rx="14"/>
+  <text class="label" x="190" y="269">Coming Soon</text>
+  <text class="sub" x="190" y="294">위시리스트 수집</text>
+
+  <rect class="node" x="340" y="235" width="240" height="80" rx="14"/>
+  <text class="label" x="460" y="269">Steam Playtest</text>
+  <text class="sub" x="460" y="294">개발 테스트 전용 App ID</text>
+
+  <rect class="node demo" x="610" y="235" width="240" height="80" rx="14"/>
+  <text class="label" x="730" y="269">Steam Demo</text>
+  <text class="sub" x="730" y="294">체험판 App ID</text>
+
+  <rect class="node release" x="70" y="400" width="240" height="80" rx="14"/>
+  <text class="label" x="190" y="446">정식 출시</text>
+
+  <rect class="node release" x="70" y="535" width="240" height="80" rx="14"/>
+  <text class="label" x="190" y="568">본편 구매와</text>
+  <text class="label" x="190" y="592">본편 리뷰</text>
+
+  <rect class="node demo" x="430" y="400" width="260" height="80" rx="14"/>
+  <text class="label" x="560" y="433">본편 페이지의</text>
+  <text class="label" x="560" y="457">Download Demo 버튼</text>
+
+  <rect class="node demo" x="710" y="400" width="190" height="80" rx="14"/>
+  <text class="sub" x="805" y="422">선택 사항</text>
+  <text class="label" x="805" y="448">별도 Demo 페이지</text>
+  <text class="sub" x="805" y="470">Demo 리뷰</text>
+</svg>

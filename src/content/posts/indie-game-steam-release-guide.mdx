@@ -1,0 +1,114 @@
+---
+title: '인디게임 Steam 출시와 홍보 타임라인 정리'
+description: '2026년 10월 Steam Next Fest를 준비하며 Coming Soon, Playtest, Demo의 차이와 실제 출시 준비 순서를 정리했다.'
+date: 2026-07-27 00:00:00
+updatedDate: 2026-07-27 00:00:00
+draft: false
+tags:
+  - game
+---
+
+2026년 10월 Steam Next Fest 참가를 준비하면서 Steam 출시와 홍보 일정을 조사했다. 처음에는 본편 페이지, Coming Soon, Playtest, Demo가 각각 어떤 관계인지부터 헷갈렸다. 일정 자료를 찾아도 개발, Steam 행정, 홍보 이야기가 한꺼번에 나와 지금 무엇을 해야 하는지 잘 보이지 않았다. 그래서 Steam의 구조를 먼저 정리한 뒤 10월 Next Fest에서 역산해 실제 행동 순서만 남겼다.
+
+
+## Steam 구조 정리
+
+![](/posts/indie-game-steam-release-guide/steam-structure.svg)
+
+
+### Coming Soon, Playtest, Demo 차이
+
+| 구분       | Coming Soon     | Playtest            | Demo                         |
+| -------- | --------------- | ------------------- | ---------------------------- |
+| 정체       | 본편 페이지의 출시 전 상태 | 별도 테스트 App ID       | 별도 체험판 App ID                |
+| 목적       | 위시리스트 수집        | 개발 문제 발견            | 구매 판단과 홍보                    |
+| 공개 방식    | 본편 상점 페이지       | 본편 페이지에서 신청 또는 키 배포 | 본편 페이지의 Demo 버튼              |
+| 플레이어 리뷰  | 없음              | 본편 리뷰 작성 불가         | 별도 Demo 페이지가 있을 때 Demo 리뷰 가능 |
+| 본편 리뷰 점수 | 해당 없음           | 영향 없음               | 직접 영향 없음                     |
+| 추천 시점    | 공개 홍보 시작 전      | Demo 완성 전           | 충분히 검증된 뒤                    |
+
+`Coming Soon`은 **본편 상점 페이지의 출시 전 상태**다. 본편을 아직 판매하거나 플레이할 수는 없지만 게임 정보와 커뮤니티 허브가 공개된다. 방문자는 이 페이지에서 게임을 위시리스트에 추가할 수 있다. Steam에서는 본편 상점 페이지를 만든 뒤 Valve 심사를 받고 `Post As Coming Soon`을 눌러 공개한다. 정식 출시 전에는 이 상태로 최소 2주를 유지해야 출시할 수 있다.
+
+Steam Playtest의 플레이타임, 리뷰, 위시리스트, 환불 기록은 본편과 분리되는 페이지다. Playtest만 참가한 사람은 본편 리뷰를 쓸 수 없다.
+
+Demo도 별도 페이지(App ID)다. 별도 Demo 상점 페이지를 선택하면 Demo 리뷰를 받을 수 있지만 본편 리뷰 점수에는 합산되지 않는다. 다만 좋지 않은 Demo 반응이 영상과 커뮤니티에 퍼지면 본편의 첫인상에는 간접적으로 영향을 줄 수 있다.
+
+Demo 페이지는 선택 사항이다. 별도 Demo 페이지를 열었다면 그 페이지에서 Demo 리뷰를 받을 수 있다. 본편 페이지에 `Download Demo` 버튼만 붙인 경우에는 커뮤니티 허브, 설문, Discord 같은 별도 창구로 피드백을 받아야 한다. 어느 쪽이든 Demo 리뷰는 본편 리뷰 점수에 합산되지 않는다.
+
+
+## 스팀 부스트는 무엇인가
+
+`스팀 부스트`라는 이름의 단일한 공식 기능은 없다. 인디게임 커뮤니티에서는 Steam 안에서 노출이 늘어나는 여러 순간을 묶어 부스트라고 부르는 경우가 많다.
+
+- Coming Soon 페이지나 Demo를 처음 공개했을 때 생기는 초기 노출
+- Next Fest와 테마 행사에서 받는 행사 노출
+- 출시 때 `New Releases`, 개인화 추천, 위시리스트 알림으로 들어오는 노출
+- 판매와 플레이 반응이 좋아 추가 추천으로 이어지는 흐름
+
+“페이지를 공개한 뒤 48시간 동안 무조건 부스트를 받는다”, “위시리스트 7,000개 또는 리뷰 10개를 넘기면 알고리즘이 열린다” 같은 이야기도 있지만 Valve가 보장한 공식 기준은 아니다.
+
+Valve는 위시리스트가 `Popular Upcoming` 같은 일부 영역을 제외하면 알고리즘 노출의 직접 요인이 아니라고 설명한다. 상점 방문 수와 방문 대비 구매 전환율도 그 자체로 노출 요인이 아니다. 출시 후에는 실제 구매와 플레이, 정확한 태그, 지원 언어와 이용자 취향 같은 신호가 더 중요하다.
+
+공식 기능 중 부스트와 가장 비슷한 것은 **Update Visibility Round**다. 정식 출시나 Early Access 이후 큰 업데이트를 알릴 때 사용할 수 있다. 게임마다 처음에는 5회의 라운드를 받는다. 한 번 실행하면 최대 30일 또는 Steam 홈 100만 노출까지 업데이트가 소개될 수 있다. 출시 전 위시리스트를 모으는 기능이 아니라 출시 후 큰 업데이트에 쓰는 카드다.
+
+조사해 본 결과 명확한 기준을 찾기 어려웠다. 그래서 막연한 부스트를 기대하기보다 상점 페이지, Demo, Next Fest, 출시를 각각의 홍보 시점으로 삼고자 한다.
+
+
+## Steam Next Fest는 무엇인가?
+
+Steam Next Fest는 **아직 출시하지 않은 게임의 Demo를 한곳에 모아 소개하는 Steam 공식 온라인 행사**다. 매년 2월, 6월, 10월에 일주일 동안 열린다. 정식 출시 행사가 아니라 플레이어가 출시 예정작을 발견하고 직접 체험하는 데 초점이 맞춰져 있다.
+
+행사 기간에는 플레이어가 Next Fest 특집 페이지에서 게임을 발견하고 Demo를 설치해 본 뒤 본편을 위시리스트에 넣을 수 있다. 개발자는 행사에서 들어온 플레이 데이터와 반복해서 나오는 피드백을 확인한다. 스트리머, 유튜버, 게임 매체가 새로운 게임을 찾는 시기이기도 하다.
+
+다만 참가했다고 모든 게임이 같은 빈도로 노출되는 것은 아니다. 행사 초반에는 게임 배치가 일부 목록을 제외하고 무작위로 섞이며, 며칠 뒤부터는 플레이어의 취향과 행사 중 행동을 반영한 개인화 추천의 비중이 커진다. 이 노출을 실제 위시리스트로 바꾸려면 캡슐과 태그, Demo의 첫인상, 외부에서 들어오는 관심이 함께 맞물려야 한다.
+
+참가하려면 다음 조건을 갖춰야 한다.
+
+- 아직 정식 출시하지 않은 게임이어야 한다.
+- 공개된 본편 Coming Soon 페이지가 있어야 한다.
+- 행사 시작 전 누구나 설치할 수 있는 공개 Demo가 있어야 한다.
+- 본편은 행사 종료 이후에 출시해야 한다.
+- 같은 게임은 Next Fest에 한 번만 참가할 수 있다.
+
+Next Fest에서 봐야 할 성과는 리뷰 수보다 **본편 위시리스트, Demo 플레이 데이터, 플레이어 피드백, 크리에이터와 매체의 발견**에 가깝다. 게임마다 참가 기회가 한 번뿐이므로, 단순히 일정이 맞을 때보다 Demo를 남에게 보여줘도 괜찮을 때 참가하는 편이 낫다.
+
+![](/posts/indie-game-steam-release-guide/steam-next-fest-flow.svg)
+
+
+## 정리한 일정
+
+조사한 내용에 따라 앞으로의 일정을 정리해 보았다.
+
+| 단계                   | 목표                                         | 시기         | 해야 할 일                                                                                      |
+| -------------------- | ------------------------------------------ | ---------- | ------------------------------------------------------------------------------------------- |
+| 1단계. 본편 페이지 공개       | 홍보로 생긴 관심을 위시리스트에 쌓을 장소 만들기                | 지금~8월 초    | 게임 한 줄 설명, 캡슐, 트레일러, 스크린샷, 태그를 준비해 상점 심사를 받고 Coming Soon으로 공개한다.                            |
+| 2단계. Playtest와 참가 등록 | 처음 보는 사람이 핵심 플레이를 이해하는지 확인하기               | 8월 중순~말    | 소규모 Playtest를 진행해 이탈 구간을 찾고, 본편 태그와 행사 카테고리를 확인한 뒤 8월 말까지 Next Fest에 등록한다.                  |
+| 3단계. Demo 완성         | 공개해도 되는 수준의 안정성과 첫인상 만들기                   | 9월 초~중순    | 첫 10~15분, 입력 장치, 저장, 재실행, 종료 화면, 위시리스트 안내를 점검하고 Demo 빌드와 상점 정보를 심사에 제출한다.                   |
+| 4단계. 공개 준비           | Demo를 발견한 사람이 바로 이해하고 소개할 수 있게 만들기         | 9월 말~10월 초 | 심사 피드백을 반영하고 프레스킷, 짧은 소개, GIF와 크리에이터 후보 목록을 준비한다. Demo 리뷰가 꼭 필요하다면 이때 별도 Demo 상점 페이지를 검토한다. |
+| 5단계. Demo 공개         | 실제 사용자 환경에서 문제를 확인하고 Next Fest 유입을 받을 준비하기 | 10월 초~중순   | 본편 페이지에 Demo 버튼을 표시하고 설치부터 완주까지 확인한다. 장르가 맞는 크리에이터에게 1차로 알리고, 치명적인 버그와 첫 15분의 이탈을 우선 수정한다.  |
+| 6단계. Next Fest 운영    | 위시리스트, 플레이 데이터, 피드백과 외부 노출 모으기             | 10월 하순     | 홍보 링크를 본편 페이지로 통일하고, Demo 실행·완주·위시리스트·유입 출처를 기록하면서 버그와 반복 피드백에 대응한다.                        |
+| 7단계. 행사 결과 반영        | 출시 시점과 남은 개선 범위 결정하기                       | 10월 말 이후   | Demo 이탈 구간과 반복 피드백을 정리하고, 품질이 충분한지 확인한 뒤 Demo 유지 여부와 Early Access 또는 정식 출시 일정을 결정한다.        |
+
+
+### 결론
+
+조사를 시작할 때는 Coming Soon, Playtest, Demo가 모두 별개의 페이지인지, Demo에서 받은 리뷰가 본편에도 영향을 주는지부터 헷갈렸다. 정리하고 보니 역할은 비교적 명확했다.
+
+Coming Soon은 위시리스트를 받을 본편 페이지이고, Playtest는 공개 전에 문제를 찾는 테스트 수단이다. Demo는 구매를 고민하는 사람에게 게임을 직접 보여주는 홍보 수단이며, Next Fest는 그 Demo를 가장 많은 사람에게 선보일 수 있는 행사다.
+
+지금 먼저 할 일은 본편 페이지를 Coming Soon으로 공개해 관심을 모을 장소부터 만드는 것이다. 그다음에는 Playtest를 진행해 게임을 고치고 공개 Demo를 준비해야 한다. 이렇게 Steam 안에서 해야 할 일의 순서를 정리했으니, 다음 글에서는 각 단계에서 X와 Reddit에 무엇을 올리고 기자와 크리에이터에게 언제 연락할지 정리해보고자 한다.
+
+
+## 참고 자료
+
+- [Steamworks - Coming Soon](https://partner.steamgames.com/doc/store/coming_soon)
+- [Steamworks - Release Options](https://partner.steamgames.com/doc/store/types)
+- [Steamworks - Steam Playtest](https://partner.steamgames.com/doc/features/playtest)
+- [Steamworks - Demos](https://partner.steamgames.com/doc/store/application/demos)
+- [Steamworks - Wishlists](https://partner.steamgames.com/doc/marketing/wishlist)
+- [Steamworks - Visibility on Steam](https://partner.steamgames.com/doc/marketing/visibility)
+- [Steamworks - Update Visibility Rounds](https://partner.steamgames.com/doc/marketing/visibility/update_rounds)
+- [Steamworks - UTM Analytics](https://partner.steamgames.com/doc/marketing/utm_analytics)
+- [Steamworks - Steam Next Fest](https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest?l=english&language=english)
+- [Steamworks - Steam Next Fest: 2026년 10월 에디션](https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/2026october?l=koreana)
+- [Steamworks - Steam Next Fest Tips](https://partner.steamgames.com/doc/marketing/upcoming_events/nextfest/tips)
