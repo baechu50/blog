@@ -38,6 +38,7 @@ const { Content, remarkPluginFrontmatter } = await post.render();
   seo={{
     title: post.data.title,
     description: post.data.description,
+    ogImage: post.data.ogImage,
   }}
 >
   <PostHeader

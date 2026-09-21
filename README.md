@@ -42,6 +42,17 @@ draft: false
 - `updatedDate` (권장)
 - `tags` (선택)
 - `draft` (선택)
+- `ogImage` (선택): 공유 미리보기 대표 이미지. 생략하면 `site.config.ts`의 기본 이미지를 사용합니다.
+
+글별 대표 이미지 예시:
+
+```yaml
+ogImage: '/posts/<slug>/cover.jpg'
+```
+
+위 경로는 `public/posts/<slug>/cover.jpg` 파일을 가리킵니다. 외부 이미지의 전체 HTTPS 주소도 사용할 수 있습니다. 이 값은 Open Graph와 X 공유 이미지에 함께 적용되며 본문에 이미지를 추가하지는 않습니다.
+
+공유용 이미지는 1200×630px의 PNG 또는 JPG로 준비하는 것을 권장합니다. 작은 미리보기에서도 알아볼 수 있도록 중요한 글자나 로고는 중앙에 배치합니다.
 
 ## 3) 이미지 업로드 규칙
 

@@ -9,6 +9,7 @@ export interface SEO {
 export const postSchema = z.object({
   title: z.string(),
   description: z.string(),
+  ogImage: z.string().optional(),
   date: z.coerce.date(),
   updatedDate: z.coerce.date().optional(),
   tags: z.array(z.string()).optional(),

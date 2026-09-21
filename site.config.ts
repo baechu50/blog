@@ -7,7 +7,7 @@ const config: SiteConfig = {
   description:
     '1인 인디게임 개발자로서 게임 기획, 개발, 디자인, 사업을 직접 수행하며 배운 내용을 기록합니다.',
   favicon: '/favicon.svg',
-  ogImage: '/og.avif',
+  ogImage: '/og.png',
   lang: 'ko',
   // analytics: {
   //   provider: 'umami',
